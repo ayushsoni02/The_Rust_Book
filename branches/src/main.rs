@@ -31,6 +31,7 @@
 //     println!("the result value is : {result}");
 // }
 
+
 fn main() {
     for number in (1..9).rev() {
         print!("{number} ");
