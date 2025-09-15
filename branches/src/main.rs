@@ -38,6 +38,8 @@
 fn main() {
     for number in (1..9).rev() {
         print!("{number} ");
+
+        
     }
     println!("LIFTOFF!");
 }
