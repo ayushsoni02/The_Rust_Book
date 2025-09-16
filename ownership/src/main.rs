@@ -1,14 +1,14 @@
 
-// fn main() {
-// let mut v: Vec<i32> = vec![1, 2, 3];
-// let num: &i32 = &v[2];
-// v.push(4);
-// println!("Third element is {}", *num);
-// }
-
 fn main() {
-    
+let mut v: Vec<i32> = vec![1, 2, 3];
+let num: &i32 = &v[2];
+v.push(4);
+println!("Third element is {}", *num);
 }
+
+// fn main() {
+    
+// }
 
 
 // Initially, v points to an array with 3 elements on the heap. 
